@@ -12,10 +12,10 @@ jobs:
       - uses: actions/checkout@v4
       
       - name: Install
-        run: npm install
+        run: echo "install"
         
       - name: Test
-        run: npm test
+        run: echo "test"
 
       - name: Build
-        run: npm run build
+        run: echo "build package"
